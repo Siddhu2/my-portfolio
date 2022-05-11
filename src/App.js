@@ -3,6 +3,7 @@ import Home from './pages/home';
 import Contact from './pages/contact';
 import Projects from './pages/project';
 import MainNavigation from './components/layouts/MainNavigation';
+import About from './pages/about';
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
       <MainNavigation />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );
