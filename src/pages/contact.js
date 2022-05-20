@@ -1,8 +1,17 @@
 function Contact(props)
 {
     return (
-        <div className="contact">
-            <h3>This is contact page</h3>
+        <div style={{ 
+            backgroundImage: `url(${process.env.PUBLIC_URL + '/img/home.jpg'})`,
+            backgroundSize: 'cover',
+            height: '100vh',
+            width: '100vw',
+            backgroundAttachment: 'fixed',
+            backgroundRepeat: 'no-repeat',
+          }}> 
+
+            <div>Catch me on:</div>
+            
             </div>
     )
 }
